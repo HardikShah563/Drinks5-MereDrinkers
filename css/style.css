@@ -391,6 +391,7 @@ section {
 }
 
 .contact {
+    width: 60%;
     margin: 100px auto;
 }
 
@@ -422,8 +423,7 @@ section {
 .contact .row form .inputBox {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0 2rem 0;
     background: var(--bg);
     border: var(--border);
 }
@@ -431,16 +431,27 @@ section {
 .contact .row form .inputBox span {
     color: #fff;
     font-size: 2rem;
-    padding-left: 2rem;
 }
 
 .contact .row form .inputBox input {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1.7rem;
     color: #fff;
     text-transform: none;
     background: none;
+}
+
+#input-message {
+    height: 10rem;
+}
+
+textarea {
+    resize: none;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--bg);
+    font-size: 1.7rem;
 }
 
 .footer {
@@ -523,7 +534,6 @@ section {
     section {
         padding: 2rem;
     }
-
 }
 
 @media (max-width:768px) {
@@ -579,12 +589,20 @@ section {
     .products .box-container {
         width: 80vw;
     }
+
+    .contact {
+        width: 80%;
+    }
 }
 
 @media (max-width:450px) {
 
     html {
         font-size: 50%;
+    }
+
+    .contact {
+        width: 98%;
     }
 
 }
