@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Login\Register</title>
+    <title>Login</title>
 </head>
 
 <body>
@@ -85,34 +85,7 @@
                 <label for="checkbox">Remember me</label>
                 <div class="form1-control">
                     <button class="btn" type="submit">LOGIN</button>
-                    <p id="regismes">Not having an account? Sign-Up</p>
-                </div>
-            </form>
-        </div>
-        <div class="form1" id="register">
-            <h1>Register</h1>
-            <form action="">
-                <div class="form1-control">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" autocomplete="off" placeholder="Enter your name">
-                </div>
-                <div class="form1-control">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" autocomplete="off" placeholder="Enter your name">
-                </div>
-                <div class="form1-control">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" autocomplete="off" placeholder="Enter your password">
-                </div>
-                <div class="form1-control">
-                    <label for="password">Confirm Password</label>
-                    <input type="confirmpassword" name="confirmpassword" id="confirmpassword" autocomplete="off" placeholder="Enter your password">
-                </div>
-                <input type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox">Agree to Terms & Conditions</label>
-                <div class="form1-control">
-                    <button class="btn" type="submit">REGISTER</button>
-                    <p id="logmes">Already have an account. Log in</p>
+                    <p id="regismes">Don't have an account? <a href="./register.html">Sign-Up</a></p>
                 </div>
             </form>
         </div>
@@ -138,24 +111,7 @@
         </div>
     
         <div class="credit">All rights reserved</div>
-    
     </section>
-
-    <script>
-        let reg = document.getElementById('regismes');
-        let log = document.getElementById('logmes');
-        let login = document.getElementById('login');
-        let register = document.getElementById('register');
-        reg.addEventListener('click', ()=>{ 
-            register.style.display = "block";
-            login.style.display = "none";
-        })
-        log.addEventListener('click', ()=>{ 
-            register.style.display = "none";
-            login.style.display = "block";
-        })
-    </script>
-    <script src="../js/script.js"></script>
 </body>
 
 </html>

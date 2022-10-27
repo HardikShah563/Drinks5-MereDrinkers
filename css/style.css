@@ -598,7 +598,9 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(60deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.png");
+    background-image: linear-gradient(60deg, #00000080, #00000080), url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container6 form {
@@ -620,7 +622,7 @@ html {
 
 .container6 .form1 {
     background-color: white;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .container6 .form1 h1 {
@@ -638,10 +640,6 @@ html {
     padding: 0.5rem;
     outline: none;
     border: none;
-}
-
-.container6 #register {
-    display: none;
 }
 
 .form1-control p {
