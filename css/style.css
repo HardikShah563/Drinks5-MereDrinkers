@@ -261,7 +261,7 @@ section {
 
 .about .row .content {
     flex: 1 1 45rem;
-    padding: 2rem;
+    padding: 5rem;
 }
 
 .about .row .content h3 {
@@ -270,6 +270,7 @@ section {
 }
 
 .about .row .content p {
+    width: 70%;
     font-size: 1.6rem;
     color: #ccc;
     padding: 1rem 0;
@@ -637,7 +638,7 @@ html {
 }
 
 .btn {
-    padding: 0.5rem;
+    padding: 1rem 1.5rem;
     outline: none;
     border: none;
 }
