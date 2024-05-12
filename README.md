@@ -4,7 +4,3 @@
 ##### Frontend: 
 ##### HTML
 ##### CSS
-#
-##### Backend: 
-##### PHP
-##### MySQL
