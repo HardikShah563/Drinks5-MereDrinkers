@@ -1,5 +1,5 @@
 # Welcome to Mere Drinkers
-#### A full stack php mysql project that allows you to buy drinks, add to cart and make a purchase and checkout
+#### A frontend project that allows you to buy drinks, add to cart and make a purchase and checkout
 
 ##### Frontend: 
 ##### HTML
